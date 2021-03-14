@@ -1,3 +1,4 @@
+/* This is the inbuilt tag CSS part of the CSS*/
 body {
   font-family: 'Anton', sans-serif;
   font-family: 'Marck Script', cursive;
@@ -6,39 +7,60 @@ body {
   color: #11999E;
 }
 
-hr{
+hr {
   border: dotted grey 6px;
   border-bottom: none;
   width: 4%;
-  margin:100px auto;
+  margin: 100px auto;
 }
 
-
+/* This is the class part of the CSS*/
 .bottom_cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
 }
 
+.bottom_container {
+  background-color: #9dc6a7;
+  padding-top: 100px;
+  position: relative;
+}
+
+.Certificates {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.Contact {
+  background-color: #edffea;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.Experience {
+  background-color: #edffea;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+
 .heading {
   font-family: 'Playball', cursive;
   font-size: 50px;
 }
 
-.top_container {
-  background-color: #E4FBFF;
-  padding-top: 100px;
-  position: relative;
-}
-
 .mid_container {
-
-  padding-top: 100px;
+  padding-top: 200px;
   position: relative;
 }
 
-.bottom_container {
-  background-color: #E4FBFF;
+
+
+.top_container {
+  background-color: #edffea;
   padding-top: 100px;
   position: relative;
 }
